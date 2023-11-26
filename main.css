@@ -1,0 +1,232 @@
+* {
+  color: white;
+  font-family: Kanit;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(33, 33, 33);
+}
+.cv {
+  width: 595px;
+  height: 842px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 202px;
+  background-image: url(./img/Mask\ group.png);
+}
+.header_txt {
+  padding: 124px 0 0 34px;
+}
+.header_txt h1 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.44px;
+}
+.header_txt p {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn {
+  border-radius: 20px;
+  border: 0.5px solid #d9d9d9;
+}
+.linkedin {
+  padding: 5px 20px;
+}
+.e_mail {
+  padding: 5px 27px;
+}
+.call {
+  padding: 5px 34px;
+}
+.btn:hover {
+  background-color: #1db954;
+  border: 0.5px solid #1db954;
+  text-decoration: none;
+}
+.btn_box {
+  padding-left: 35px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+main {
+  background: linear-gradient(180deg, #5a5a5a 0%, #191414 26.21%);
+}
+.info {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+.content_box {
+  display: flex;
+  padding: 0 35px;
+}
+.first_colum {
+  margin-right: 40px;
+}
+.colum {
+  width: 50%;
+}
+h2 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  border-bottom: 1px solid #9e9f9e84;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+}
+.info_text h3 {
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+}
+.company_name {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+}
+.period {
+  color: #aaabaa;
+  font-size: 7.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+}
+.desc {
+  font-size: 7.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+.info img {
+  margin-right: 12px;
+  width: 35px;
+  height: 35px;
+}
+.desc_margin {
+  margin-bottom: 21px;
+}
+@media (max-width: 1120px) {
+  .cv {
+    width: 450px;
+    height: 842px;
+    margin: 0 auto;
+  }
+  .linkedin {
+    padding: 8px 30px;
+  }
+  .e_mail {
+    padding: 8px 37px;
+  }
+  .call {
+    padding: 8px 44px;
+  }
+  .content_box {
+    flex-direction: column;
+  }
+  .colum {
+    width: 90%;
+  }
+  .info_text h3 {
+    font-size: 18px;
+  }
+  .company_name {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .period {
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  .desc {
+    font-size: 12px;
+    padding-right: 15px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-x: hidden;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .info img {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* адаптація */
+@media (max-width: 450px) {
+  .linkedin {
+    padding: 8px 0px;
+  }
+  .e_mail {
+    padding: 8px 0px;
+  }
+  .call {
+    padding: 8px 0px;
+  }
+  .content_box {
+    flex-direction: column;
+  }
+  .colum {
+    width: 90%;
+  }
+  .info_text h3 {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  .company_name {
+    font-size: 20px;
+    padding: 10px 0;
+    line-height: 1.2;
+  }
+  .period {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .desc {
+    font-size: 12px;
+    padding-right: 5px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    overflow-x: hidden;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .info img {
+    width: 90px;
+    height: 90px;
+  }
+  .header_txt p {
+    font-size: 16px;
+  }
+  .btn_box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px; 
+    margin-bottom: 20px;
+  }
+  .btn {
+    margin-bottom: 10px;
+    width: 0%;
+    font-size: 24px;
+  }
+}
+
